@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Gopika S - Python Full Stack Developer portfolio specializing in Django, MySQL, responsive web apps, and modern UI/UX.">
+  <meta name="keywords"
+    content="Gopika S, Python Full Stack Developer, Django Developer, MySQL, Portfolio, Tiruvannamalai">
+  <meta name="author" content="Gopika S">
+  <meta property="og:title" content="Gopika S | Python Full Stack Developer">
+  <meta property="og:description"
+    content="Modern portfolio for a Python Full Stack Developer building scalable web applications and clean digital experiences.">
+  <meta property="og:type" content="website">
+  <title>Gopika S | Python Full Stack Developer</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="preconnect" href="https://unpkg.com">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="loader" aria-label="Loading portfolio">
+    <div class="loader-mark">GS</div>
+  </div>
+
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+
+  <nav class="navbar navbar-expand-lg fixed-top glass-nav" aria-label="Primary navigation">
+    <div class="container">
+      <a class="navbar-brand" href="#home">Gopika S</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+        aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-lg-3">
+            <button class="icon-btn" id="themeToggle" type="button" aria-label="Toggle light mode">
+              <i data-lucide="sun"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section id="home" class="hero-section">
+      <canvas id="particleCanvas" aria-hidden="true"></canvas>
+      <div class="orb orb-a"></div>
+      <div class="orb orb-b"></div>
+      <div class="mouse-glow" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="eyebrow"><i data-lucide="sparkles"></i> Available for internships, projects, and web
+            builds</span>
+          <h1>Gopika S</h1>
+          <p class="hero-title"><span id="typingText"></span></p>
+          <p class="hero-tagline">Crafting scalable web applications with clean code, modern UI/UX, and business-focused
+            solutions.</p>
+          <p class="hero-sub">Passionate Python Full Stack Developer specializing in Django, MySQL, responsive web
+            applications, and user-centered digital experiences.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary btn-glow" href="#contact"><i data-lucide="send"></i> Hire Me</a>
+            <a class="btn btn-outline-light" href="#projects"><i data-lucide="layers-3"></i> View Projects</a>
+            
+            <a class="btn btn-soft resume-download" href="assets/Gopika resume (1).pdf" download="Gopika_S_Resume.pdf">
+              <i data-lucide="download"></i>
+              Download Resume
+            </a>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <img src="assets/hero-visual.png" alt="Premium developer dashboard visual" loading="eager">
+          <div class="floating-card code-card">
+            <i data-lucide="code-2"></i>
+            <span>Django + MySQL</span>
+          </div>
+          <div class="floating-card ui-card">
+            <i data-lucide="monitor-smartphone"></i>
+            <span>Responsive UI</span>
+          </div>
+        </div>
+      </div>
+      <div class="container stats-grid reveal">
+        <article><strong data-count="12">0</strong><span>Projects Completed</span></article>
+        <article><strong data-count="14">0</strong><span>Technologies Learned</span></article>
+        <article><strong data-count="3">0</strong><span>Months Internship</span></article>
+        <article><strong data-count="100">0</strong><span>Continuous Learning</span></article>
+      </div>
+      <a class="scroll-indicator" href="#about" aria-label="Scroll to about">
+        <span></span>
+      </a>
+    </section>
+
+    <section id="about" class="section-pad">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span>About Me</span>
+          <h2>Building practical software with polish, clarity, and purpose.</h2>
+        </div>
+        <div class="row g-4 align-items-stretch">
+          <div class="col-lg-7 reveal">
+            <div class="glass-panel about-panel">
+              <p>Hello, I'm Gopika S, a Python Full Stack Developer with a strong passion for creating modern,
+                responsive, and user-friendly web applications.</p>
+              <p>I enjoy transforming ideas into real-world digital solutions using Python, Django, MySQL, JavaScript,
+                and modern frontend technologies.</p>
+              <p>My interest in UI/UX design helps me create applications that are not only functional but also visually
+                appealing and easy to use.</p>
+              <p>I continuously explore new technologies, improve my development skills, and strive to build scalable
+                software solutions that create meaningful impact.</p>
+            </div>
+          </div>
+          <div class="col-lg-5 reveal">
+            <div class="glass-panel objective-panel">
+              <i data-lucide="target"></i>
+              <h3>Career Objective</h3>
+              <p>To build a successful career in software development while contributing to innovative projects and
+                continuously enhancing my technical and problem-solving skills.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section-pad alt-section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span>Skills</span>
+          <h2>A balanced stack for full application delivery.</h2>
+        </div>
+        <div class="skills-layout">
+          <div class="skill-card reveal" data-tilt>
+            <i data-lucide="palette"></i>
+            <h3>Frontend</h3>
+            <div class="skill-bar" data-level="92"><span>HTML5</span><b></b></div>
+            <div class="skill-bar" data-level="90"><span>CSS3</span><b></b></div>
+            <div class="skill-bar" data-level="82"><span>JavaScript</span><b></b></div>
+            <div class="skill-bar" data-level="86"><span>Bootstrap</span><b></b></div>
+            <div class="skill-bar" data-level="70"><span>Responsive UI</span><b></b></div>
+          </div>
+          <div class="skill-card reveal" data-tilt>
+            <i data-lucide="server"></i>
+            <h3>Backend</h3>
+            <div class="skill-bar" data-level="88"><span>Python</span><b></b></div>
+            <div class="skill-bar" data-level="84"><span>Django</span><b></b></div>
+            <div class="skill-chart" aria-label="Backend skill chart">
+              <span style="--value:88">Python</span>
+              <span style="--value:84">Django</span>
+              <span style="--value:78">APIs</span>
+            </div>
+          </div>
+          <div class="skill-card reveal" data-tilt>
+            <i data-lucide="database"></i>
+            <h3>Database & Testing</h3>
+            <div class="skill-bar" data-level="80"><span>MySQL</span><b></b></div>
+            <div class="skill-bar" data-level="74"><span>SQLite</span><b></b></div>
+            <div class="skill-bar" data-level="78"><span>Manual Testing</span><b></b></div>
+            <div class="skill-bar" data-level="76"><span>Test Cases</span><b></b></div>
+          </div>
+          <div class="skill-card reveal" data-tilt>
+            <i data-lucide="wrench"></i>
+            <h3>Tools</h3>
+            <div class="tool-pills">
+              <span>Git</span><span>GitHub</span><span>VS Code</span><span>Bug Reporting</span><span>Debugging</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section-pad">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span>Experience</span>
+          <h2>Real project exposure through enterprise-style workflows.</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="glass-panel">
+              <div class="timeline-meta">April 2026 - June 2026</div>
+              <h3>Python Full Stack Developer Intern</h3>
+              <h4>Errors2Experts</h4>
+              <p>Worked on a real-time CSC CRM student management system across registration, admission, fee,
+                attendance, absent tracking, low attendance alerts, reports, and analytics modules.</p>
+              <div class="chips">
+                <span>Django
+                  Development</span><span>Testing</span><span>Debugging</span><span>Maintenance</span><span>Team
+                  Workflow</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section-pad alt-section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span>Projects</span>
+          <h2>Work designed for real users, clear workflows, and measurable value.</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card reveal" data-tilt>
+            <div class="project-preview preview-edu"><i data-lucide="graduation-cap"></i></div>
+            <h3>EduTrack</h3>
+            <p>AI-powered student progress and learning insights platform with attendance, analytics, reports, MySQL,
+              and role-based access.</p>
+            <div class="chips"><span>Python</span><span>Django</span><span>MySQL</span><span>JavaScript</span></div>
+            <div class="card-actions"><a href="#" aria-label="EduTrack live demo"><i data-lucide="external-link"></i>
+                Live Demo</a><a href="https://github.com/gopikas0408" target="_blank" rel="noreferrer"><i
+                  data-lucide="github"></i> GitHub</a></div>
+          </article>
+          <article class="project-card reveal" data-tilt>
+            <div class="project-preview preview-food"><i data-lucide="hand-heart"></i></div>
+            <h3>Food Donation Platform</h3>
+            <p>A full-stack application that connects food donors with people in need and helps reduce food wastage.</p>
+            <div class="chips"><span>Python</span><span>Django</span><span>MySQL</span><span>HTML</span></div>
+            <div class="card-actions"><a href="#"><i data-lucide="external-link"></i> Live Demo</a><a
+                href="https://github.com/gopikas0408" target="_blank" rel="noreferrer"><i data-lucide="github"></i>
+                GitHub</a></div>
+          </article>
+          <article class="project-card reveal" data-tilt>
+            <div class="project-preview preview-web"><i data-lucide="layout-dashboard"></i></div>
+            <h3>Portfolio Website Collection</h3>
+            <p>Responsive personal and business websites designed with modern UI/UX principles and polished frontend
+              interactions.</p>
+            <div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Bootstrap</span></div>
+            <div class="card-actions"><a href="#"><i data-lucide="external-link"></i> Live Demo</a><a
+                href="https://github.com/gopikas0408" target="_blank" rel="noreferrer"><i data-lucide="github"></i>
+                GitHub</a></div>
+          </article>
+          <article class="project-card reveal" data-tilt>
+            <div class="project-preview preview-game"><i data-lucide="gamepad-2"></i></div>
+            <h3>Higher or Lower Game</h3>
+            <p>A simple Python-based number prediction game built using core Python concepts and clear control flow.</p>
+            <div class="chips"><span>Python</span><span>Logic</span><span>CLI</span></div>
+            <div class="card-actions"><a href="#"><i data-lucide="external-link"></i> Live Demo</a><a
+                href="https://github.com/gopikas0408" target="_blank" rel="noreferrer"><i data-lucide="github"></i>
+                GitHub</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section-pad">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span>Education & Certifications</span>
+          <h2>Academic foundation with career-focused credentials.</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-6 reveal">
+            <div class="glass-panel education-card">
+              <i data-lucide="school"></i>
+              <span>2022 - 2025</span>
+              <h3>B.Sc Computer Science</h3>
+              <p>Sun Arts and Science College, Tiruvannamalai</p>
+              <strong>80%</strong>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="cert-grid">
+              <article class="cert-card reveal"><i data-lucide="badge-check"></i><span>Python Full Stack Development
+                  Certification</span></article>
+              <article class="cert-card reveal"><i data-lucide="briefcase-business"></i><span>Internship Completion
+                  Certification</span></article>
+              <article class="cert-card reveal"><i data-lucide="keyboard"></i><span>Typewriting Certification</span>
+              </article>
+              <article class="cert-card reveal"><i data-lucide="file-spreadsheet"></i><span>MS Office
+                  Certification</span></article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section-pad alt-section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span>Services</span>
+          <h2>Focused development services for students, founders, and businesses.</h2>
+        </div>
+        <div class="service-grid">
+          <article class="service-card reveal"><i data-lucide="user-round-cog"></i>
+            <h3>Portfolio Websites</h3>
+          </article>
+          <article class="service-card reveal"><i data-lucide="building-2"></i>
+            <h3>Business Websites</h3>
+          </article>
+          <article class="service-card reveal"><i data-lucide="panel-top"></i>
+            <h3>Landing Pages</h3>
+          </article>
+          <article class="service-card reveal"><i data-lucide="server-cog"></i>
+            <h3>Django Apps</h3>
+          </article>
+          <article class="service-card reveal"><i data-lucide="figma"></i>
+            <h3>UI/UX Design</h3>
+          </article>
+          <article class="service-card reveal"><i data-lucide="folder-kanban"></i>
+            <h3>College Projects</h3>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="why" class="section-pad">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span>Why Choose Me</span>
+          <h2>Dependable execution with a learning mindset.</h2>
+        </div>
+        <div class="why-grid">
+          <article class="why-card reveal"><i data-lucide="braces"></i><span>Clean Code</span></article>
+          <article class="why-card reveal"><i data-lucide="smartphone"></i><span>Responsive Design</span></article>
+          <article class="why-card reveal"><i data-lucide="zap"></i><span>Fast Development</span></article>
+          <article class="why-card reveal"><i data-lucide="smile"></i><span>User Friendly UI</span></article>
+          <article class="why-card reveal"><i data-lucide="puzzle"></i><span>Problem Solving</span></article>
+          <article class="why-card reveal"><i data-lucide="refresh-cw"></i><span>Continuous Learning</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section-pad alt-section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span>Testimonials</span>
+          <h2>Professional feedback from sample collaborators.</h2>
+        </div>
+        <div class="testimonial-shell reveal">
+          <button class="slider-btn" id="prevTestimonial" type="button" aria-label="Previous testimonial"><i
+              data-lucide="chevron-left"></i></button>
+          <article class="testimonial-card" id="testimonialCard"></article>
+          <button class="slider-btn" id="nextTestimonial" type="button" aria-label="Next testimonial"><i
+              data-lucide="chevron-right"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-pad">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span>Contact</span>
+          <h2>Let's turn your next idea into a clean web experience.</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-5 reveal">
+            <div class="glass-panel contact-info">
+              <h3>Gopika S</h3>
+              <a href="mailto:gopikas.dev48@gmail.com"><i data-lucide="mail"></i> gopikas.dev48@gmail.com</a>
+              <a href="tel:8248346453"><i data-lucide="phone"></i> 8248346453</a>
+              <span><i data-lucide="map-pin"></i> Tiruvannamalai</span>
+              <div class="social-links">
+                <a href="https://github.com/gopikas0408" target="_blank" rel="noreferrer" aria-label="GitHub"><i
+                    data-lucide="github"></i></a>
+                <a href="https://www.linkedin.com/in/gopika-s" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i
+                    data-lucide="linkedin"></i></a>
+              </div>
+              <iframe title="Tiruvannamalai map" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps?q=Tiruvannamalai&output=embed"></iframe>
+            </div>
+          </div>
+          <div class="col-lg-7 reveal">
+            <form class="glass-panel contact-form" id="contactForm">
+              <div class="row g-3">
+                <div class="col-md-6"><label for="name">Name</label><input id="name" name="name" type="text" required>
+                </div>
+                <div class="col-md-6"><label for="email">Email</label><input id="email" name="email" type="email"
+                    required></div>
+                <div class="col-12"><label for="subject">Subject</label><input id="subject" name="subject" type="text"
+                    required></div>
+                <div class="col-12"><label for="message">Message</label><textarea id="message" name="message" rows="5"
+                    required></textarea></div>
+              </div>
+              <button class="btn btn-primary btn-glow mt-4" type="submit"><i data-lucide="send"></i> Send
+                Message</button>
+              <p class="form-success" id="formSuccess" role="status">Message prepared successfully. Thank you for
+                reaching out.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="navbar-brand" href="#home">Gopika S</a>
+        <p>Python Full Stack Developer crafting clean, responsive, business-focused applications.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://github.com/gopikas0408" target="_blank" rel="noreferrer"><i data-lucide="github"></i></a>
+        <a href="https://www.linkedin.com/in/gopika-s" target="_blank" rel="noreferrer"><i
+            data-lucide="linkedin"></i></a>
+        <button id="backToTop" type="button" aria-label="Back to top"><i data-lucide="arrow-up"></i></button>
+      </div>
+    </div>
+    <p class="copyright">Copyright 2026 Gopika S. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
