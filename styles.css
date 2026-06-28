@@ -882,3 +882,23 @@ iframe {
     transition-duration: 0.01ms !important;
   }
 }
+.preview-attendance{
+    background: linear-gradient(135deg,#2563eb,#06b6d4);
+    color:#fff;
+}
+
+.preview-photoshop{
+    background: linear-gradient(135deg,#7c3aed,#ec4899);
+    color:#fff;
+}
+
+.preview-attendance,
+.preview-photoshop{
+    height:180px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:18px;
+    font-size:4rem;
+    margin-bottom:20px;
+}
