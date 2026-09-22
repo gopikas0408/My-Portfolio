@@ -625,72 +625,11 @@ img { max-width: 100%; display: block; }
 .preview-food { background: linear-gradient(135deg, #159b78, #8df05f); }
 .preview-web { background: linear-gradient(135deg, #7b4dff, #ff7ab6); }
 .preview-game { background: linear-gradient(135deg, #ff9d3c, #ef426f); }
-/* ================================
-   PROJECT PREVIEW COLORS
-   ================================ */
+.preview-hotel { background: linear-gradient(135deg, #1270ff, #23d0ff); }
+.preview-led { background: linear-gradient(135deg, #312e81, #6366f1); }
+.preview-spa { background: linear-gradient(135deg, #064e3b, #0f766e); }
+.preview-finance { background: linear-gradient(135deg, #14532d, #16a34a); }
 
-
-
-/* Hotel Management */
-.preview-hotel {
-  background: linear-gradient(
-    135deg,
-    #1e3a8a 0%,
-    #2563eb 50%,
-    #38bdf8 100%
-  ) !important;
-}
-
-/* LED Mirror */
-.preview-led {
-  background: linear-gradient(
-    135deg,
-    #312e81 0%,
-    #6366f1 45%,
-    #a855f7 100%
-  ) !important;
-}
-
-/* SPA */
-.preview-spa {
-  background: linear-gradient(
-    135deg,
-    #064e3b 0%,
-    #0f766e 45%,
-    #2dd4bf 100%
-  ) !important;
-}
-
-/* Finance Tracker */
-.preview-finance {
-  background: linear-gradient(
-    135deg,
-    #14532d 0%,
-    #16a34a 50%,
-    #4ade80 100%
-  ) !important;
-}
-
-/* Preview Icons */
-.project-preview i {
-  width: 42px;
-  height: 42px;
-  color: #ffffff !important;
-  stroke-width: 1.8;
-  z-index: 2;
-
-  transition: transform 0.35s ease;
-}
-
-/* Hover Effect */
-.project-card:hover .project-preview {
-  transform: translateY(-2px);
-  filter: brightness(1.08);
-}
-
-.project-card:hover .project-preview i {
-  transform: scale(1.15);
-}
 
 .card-actions {
   display: flex;
